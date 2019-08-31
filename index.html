@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Analyzer: Text Analytics API</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page">
+   <div class="container">
+      <h2>Mood Analyzer</h2>
+      <h4>Using Microsoft Azure Cognitive Services: Text Analytics API</h4>
+      <div class="form">
+         <input id="myFile" type="file"/>
+         <textarea id="input" placeholder="Write a phrase or insert an article here" /></textarea>
+         <button id="analyseButton">Analyze</button>
+         <div class="results">
+            <div class="result" >
+               <h4>Language: </h4>
+               <p id="language"></p>
+            </div>
+            <div class="result" >
+               <h4>Key Phrases: </h4>
+               <p id="keyPhrases"></p>
+            </div>
+            <div class="result" >
+               <h4>Sentiment: </h4>
+               <p id="sentiment"></p>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+  <script  src="js/script.js"></script>
+
+</body>
+</html>
